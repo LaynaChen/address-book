@@ -1,0 +1,30 @@
+<div id='container'>
+	<mat-card>
+		<mat-card-title id='h1'>
+			Ellaynas Address Book
+		</mat-card-title>
+		<mat-card-content>
+			<div id='header'>
+				<div>
+					Name
+				</div>
+				<div>
+					Phone Number
+				</div>
+				<div>
+					Home Address
+				</div>
+				<div>
+					Birthday
+				</div>
+				<div>
+					Edit
+				</div>
+			</div>
+			<app-address *ngFor='let address of addressList' [address]='address' (delete)='delete($event)' [address]='address' [index]='i'></app-address>
+		</mat-card-content>
+		<mat-card-footer id='idk'>
+			Number of Contacts: {{numContacts()}}
+		</mat-card-footer>
+	</mat-card>
+</div>

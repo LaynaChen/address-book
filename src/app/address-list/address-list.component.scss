@@ -1,0 +1,29 @@
+#container {
+    /* border: 5px solid burlywood; */
+    margin: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  #h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    text-decoration-line: overline underline;
+  }
+  
+  #header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* border: 2px solid rgb(231, 168, 168); */
+    margin: 2px;
+    font-size: 13px;
+    text-decoration-line: underline;
+  }
+  
+  #idk {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    text-align: right;
+    margin: 20px;
+  }
